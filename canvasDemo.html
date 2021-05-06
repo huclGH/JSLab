@@ -12,9 +12,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="random_selector/style.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="/BootstrapCarousel/canvasDemo/style.css" >
 </head>
 
 <body>
@@ -29,16 +30,17 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home </a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">RandomSelector<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="random_selector.html">Random Selector</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="quizDemo.html">Quiz</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="canvasDemo.html">RPG</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">RPG<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="courseTableDemo.html">Club</a>
@@ -54,40 +56,15 @@
 
     <main role="main">
 
-
-
-        <!-- Marketing messaging and featurettes
-      ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
-
         <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
             <hr class="featurette-divider">
-            <h1>?</h1>
-            <input type="button" value="今天吃甚麼">
-            <ul id="foodchoices">
-                <li
-                    title="https://d20aeo683mqd6t.cloudfront.net/zh-hant/articles/title_images/000/038/935/medium/pixta_34301578_M.jpg">
-                    拉麵</li>
-                <li title="https://d3l76hx23vw40a.cloudfront.net/recipe/yqn093-027c.jpg">滷肉飯</li>
-                <li title="https://foodpicks.tw/wp-content/uploads/2019-11-03_114250-696x406.jpg">水餃</li>
-            </ul>
-            <!-- <img> -->
-
-
-
-
+            <h1>我要去右下角</h1>
+            <canvas id="myCanvas" width="600" height="600"></canvas>
+            <p id="talkBox"> </p>
 
             <hr class="featurette-divider">
-
-
-
-            <hr class="featurette-divider">
-
-
-
-            <hr class="featurette-divider">
-
-            <!-- /END THE FEATURETTES -->
 
         </div><!-- /.container -->
 
@@ -111,7 +88,7 @@
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="/BootstrapCarousel/random_selector/main.js"></script>
+    <script src="/BootstrapCarousel/canvasDemo/main.js" async defer></script>
 </body>
 
 </html>

@@ -8,7 +8,7 @@ $(function () {
         //設定img元件的SRC屬性 ->對應元件的屬性
         //用同一數字的
         //jQuery set attributes 
-        $("img").attr("src",$("li").eq(randomChildNumber).attr("title"))
+        $("img").attr("src",$("foodchoices li").eq(randomChildNumber).attr("title"))
         
 
 
